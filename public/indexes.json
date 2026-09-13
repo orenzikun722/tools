@@ -1,0 +1,12 @@
+[
+  {
+    "name": "PDF結合ツール",
+    "description": "複数のPDFファイルを1つに結合するツールです。",
+    "path": "/pdf-merge"
+  },
+  {
+    "name": "RGB HSV 確認ツール",
+    "description": "RGBとHSVの相互変換や色の確認ができるツールです。",
+    "path": "/rgb-hsv"
+  }
+]

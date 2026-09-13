@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RGB HSV確認ツール</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="rgb-container">
+    R
+    <input type="number" id="r-input" min="0" max="255" placeholder="R" value="0">
+    <input type="range" id="r-range" min="0" max="255" value="0">
+    G
+    <input type="number" id="g-input" min="0" max="255" placeholder="G" value="0">
+    <input type="range" id="g-range" min="0" max="255" value="0">
+    B
+    <input type="number" id="b-input" min="0" max="255" placeholder="B" value="0">
+    <input type="range" id="b-range" min="0" max="255" value="0">
+  </div>
+  <div id="hsv-container">
+    H
+    <input type="number" id="h-input" min="0" max="360" placeholder="H" value="0">
+    <input type="range" id="h-range" min="0" max="360" value="0">
+    S
+    <input type="number" id="s-input" min="0" max="100" placeholder="S" value="0">
+    <input type="range" id="s-range" min="0" max="100" value="0">
+    V
+    <input type="number" id="v-input" min="0" max="100" placeholder="V" value="0">
+    <input type="range" id="v-range" min="0" max="100" value="0">
+  </div>
+  <label for="hex-input">HEX RGB</label>
+  <input type="text" id="hex-input" placeholder="HEX" value="#000000">
+  <label for="decimal-input">Decimal RGB</label>
+  <input type="text" id="decimal-input" placeholder="Decimal" value="0">
+  <div id="color-display"></div>
+  <script src="script.js"></script>
+</body>
+</html>
