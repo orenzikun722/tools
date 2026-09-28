@@ -8,5 +8,10 @@
     "name": "RGB HSV 確認ツール",
     "description": "RGBとHSVの相互変換や色の確認ができるツールです。",
     "path": "/rgb-hsv"
+  },
+  {
+    "name": "文字数カウンター",
+    "description": "テキストの文字数をカウントするツールです。",
+    "path": "/character-counter"
   }
 ]
